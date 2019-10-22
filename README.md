@@ -16,7 +16,7 @@ var ace = require("./ace");
 var assert = require("./test/assertions");
 
 module.exports = {
-  "" : function() {
+  "test" : function() {
     var editor = ace.edit(null, {
       value: "Hello wrold"
     });
